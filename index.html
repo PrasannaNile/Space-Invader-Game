@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Space Invader</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <p id="fullScore"><span>Score : </span><span id="displayScore">0</span></p>
+      <img src="img/pause.png" id="pauseId" onclick="gamePause()">
+      <h1 id="text">Game Over</h1>
+      <h2 id="textScore"></h2>
+      <div class="bullets">
+        <span id="bulletsNum">40</span>
+        <h4>Bullets</h4>
+      </div>
+      <canvas id="canvas"></canvas>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  font-family: 'roboto', san-serif;
+
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+.container{
+  position: relative;
+}
+.bullets{
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  color: orange;
+}
+#bulletsNum{
+  opacity: 1;
+  font-size: 20px;
+  font-weight: 800;
+}
+canvas{
+  box-shadow: 1px 2px 5px white;
+}
+p{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-size: 18px;
+}
+h1, h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: yellow;
+  font-size: 30px;
+  font-family: 'roboto', san-serif;
+  display: none;
+}
+h2{
+  top: 56%;
+}
+
+#pauseId{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  cursor: pointer;
+}
